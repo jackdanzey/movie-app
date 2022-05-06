@@ -10,4 +10,10 @@ class MoviesController < ApplicationController
 
     render json: movie.as_json
   end
+
+  # def start
+  #   movie = Movie.find_each(start: 2)
+
+  #   render json: movie.as_json
+  # end
 end
